@@ -3,9 +3,9 @@
 
 # Contents
 ## 🌞 Team Rules
-[팀 협업 컨벤션]()
+[팀 협업 컨벤션](https://github.com/YOBEE-8th/.github/blob/main/profile/team_rules/team_coop_convention.md)
 
-[개발 자료]()
+[개발 자료](https://github.com/YOBEE-8th/.github/blob/main/profile/team_docs/develop_docs.md)
 
 ## 💻 Dev
 [프로젝트 개발 컨텐츠]()
