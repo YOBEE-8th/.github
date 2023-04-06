@@ -7,23 +7,23 @@
 
 ### 마지막 페이지로 이동
 
-<img src="https://user-images.githubusercontent.com/48742378/230293696-37e8336f-91f3-49fa-9171-ce604ac518b5.gif"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/48742378/230303893-30906341-a293-44de-a1a1-48fe2760d0c5.gif"  width="200" height="400"/>
 
 ### 이전 페이지로 이동
 
-<img src="https://user-images.githubusercontent.com/48742378/230293696-37e8336f-91f3-49fa-9171-ce604ac518b5.gif"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/48742378/230304038-acafad05-c121-4939-af7b-945e57d49a6c.gif"  width="200" height="400"/>
 
 ---
 
 ### 타이머 설정
 
-<img src="https://user-images.githubusercontent.com/48742378/230293696-37e8336f-91f3-49fa-9171-ce604ac518b5.gif"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/48742378/230304155-08b98a41-a0db-4177-8fe9-3243543e12f3.gif"  width="200" height="400"/>
 
 ---
 
 ### 볼륨 조절
 
-<img src="https://user-images.githubusercontent.com/48742378/230293696-37e8336f-91f3-49fa-9171-ce604ac518b5.gif"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/48742378/230304269-48a943d2-4167-4317-bcf3-ccd6c9bb531f.gif"  width="200" height="400"/>
 
 ---
 
