@@ -6,13 +6,13 @@
 
 ### 회원 정보 입력 및 전체 과정
 
-![KakaoTalk_20230406_105618035.gif](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20acf1b26b32554ea99b101a96601434fb/KakaoTalk_20230406_105618035.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230293696-37e8336f-91f3-49fa-9171-ce604ac518b5.gif"  width="200" height="400"/>
 
 ---
 
 ### 인증번호 시간 만료시
+<img src="https://user-images.githubusercontent.com/48742378/230296021-20cfe882-4154-40c1-b331-a87a52e27fbb.gif"  width="200" height="400"/>
 
-![Untitled](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20acf1b26b32554ea99b101a96601434fb/Untitled.gif)
 
 ### 1.2 코드
 
