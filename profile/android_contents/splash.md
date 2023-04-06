@@ -1,14 +1,21 @@
 # 스플래시
 
+---
+
 ## 1. 스플래시
 
 ### 결과물(GIF)
 
-### 토큰 유효성 검사 실패 화면                        토큰 유효성 검사 성공 화면
+### 토큰 유효성 검사 실패 화면                        
 
-![KakaoTalk_20230405_164314675.gif](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B5%20756745c9cd814e6bb723d919f1c7ef10/KakaoTalk_20230405_164314675.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230302429-356eea2e-46b4-4ab8-b640-81cd2edfdaa4.gif"  width="200" height="400"/>
 
-![KakaoTalk_20230405_164314523.gif](%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B5%20756745c9cd814e6bb723d919f1c7ef10/KakaoTalk_20230405_164314523.gif)
+---
+
+### 토큰 유효성 검사 성공 화면
+<img src="https://user-images.githubusercontent.com/48742378/230302520-00b21d9e-ba43-4608-996f-da96c5ed14ac.gif"  width="200" height="400"/>
+
+---
 
 ### 1.2 코드
 
@@ -114,6 +121,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>(R.layout.fragment_spl
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -169,6 +177,7 @@ class SplashViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### 1.3 코드 설명
 
