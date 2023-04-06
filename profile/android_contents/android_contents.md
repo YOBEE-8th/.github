@@ -71,10 +71,10 @@
 | 이민하 | 이수용 | 조수연 |
 | --- | --- | --- |
 | 홈화면 |  [레시피 목록](https://www.notion.so/14e3e39b97834736bfe7ab88eb212539) | [회원가입](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/register.md) |
-| 레시피 소개 | 요리 방법 | 로그인
-| 완성 사진 분석 | TTS | 회원 정보 관리 |
-| 리뷰 | 검색 | 음성 제어 & 질문 |
-| FCM | 메뉴 월드컵 | 스플래쉬 |
+| 레시피 소개 | 요리 방법 | [로그인](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/login.md)
+| 완성 사진 분석 | TTS | [회원 정보 관리](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/account_management.md) |
+| 리뷰 | 검색 | [음성 제어 & 질문](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/stt.md) |
+| FCM | 메뉴 월드컵 | [스플래쉬](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/splash.md) |
 | | 요리 과정| | 즐겨찾기
 | | 카카오 로그인
 
