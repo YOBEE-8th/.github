@@ -71,10 +71,10 @@
 | 이민하 | 이수용 | 조수연 |
 | --- | --- | --- |
 | 홈화면 |  [레시피 목록](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/recipe_list.md) | [회원가입](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/register.md) |
-| 레시피 소개 | [요리 과정(TTS)](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/cook_progress.md) | 로그인
-| 완성 사진 분석 | [Clean Architecture](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/clean_architecture) | 회원 정보 관리 |
-| 리뷰 | [검색](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/search.md) | 음성 제어 & 질문 |
-| FCM | [메뉴 월드컵](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/menu_worldcup.md) | 스플래쉬 |
+| 레시피 소개 | [요리 과정(TTS)](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/cook_progress.md) | [로그인](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/login.md)
+| 완성 사진 분석 | [Clean Architecture](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/clean_architecture) | [회원 정보 관리](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/account_management.md) |
+| 리뷰 | [검색](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/search.md) | [음성 제어 & 질문](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/stt.md) |
+| FCM | [메뉴 월드컵](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/menu_worldcup.md) | [스플래쉬](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/splash.md) |
 | | [즐겨찾기](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/favorite.md)
 
 [민하](https://www.notion.so/67efde060900493f9f19512f70448390)

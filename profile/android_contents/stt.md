@@ -1,4 +1,5 @@
 # 음성 제어 & 질문
+---
 
 ## 1. 음성 제어
 
@@ -6,26 +7,29 @@
 
 ### 마지막 페이지로 이동
 
-![KakaoTalk_20230406_132111757.gif](%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A5%20&%20%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20a74ed746338b49d3895051cc30f96561/KakaoTalk_20230406_132111757.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230303893-30906341-a293-44de-a1a1-48fe2760d0c5.gif"  width="200" height="400"/>
 
 ### 이전 페이지로 이동
 
-![KakaoTalk_20230406_132148231.gif](%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A5%20&%20%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20a74ed746338b49d3895051cc30f96561/KakaoTalk_20230406_132148231.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230304038-acafad05-c121-4939-af7b-945e57d49a6c.gif"  width="200" height="400"/>
 
 ---
 
 ### 타이머 설정
 
-![KakaoTalk_20230406_135627198.gif](%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A5%20&%20%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20a74ed746338b49d3895051cc30f96561/KakaoTalk_20230406_135627198.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230304155-08b98a41-a0db-4177-8fe9-3243543e12f3.gif"  width="200" height="400"/>
 
 ---
 
 ### 볼륨 조절
 
-![KakaoTalk_20230406_135747136.gif](%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%A5%20&%20%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%20a74ed746338b49d3895051cc30f96561/KakaoTalk_20230406_135747136.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230304269-48a943d2-4167-4317-bcf3-ccd6c9bb531f.gif"  width="200" height="400"/>
+
+---
 
 ### 1.2 코드
 
+### Fragment
 ```kotlin
 @AndroidEntryPoint
 class CookProgressFragment :
@@ -317,6 +321,101 @@ class CookProgressFragment :
     }
 }
 ```
+---
+
+### ViewModel
+
+```
+@HiltViewModel
+class CookProgressViewModel @Inject constructor(
+    private val getAnswerUseCase: GetAnswerUseCase,
+) :
+    ViewModel() {
+    private var _recipeId = -1
+    val recipeId: Int get() = _recipeId
+
+    private var _isSpeaking = SingleLiveEvent<Boolean>()
+    val isSpeaking: LiveData<Boolean> get() = _isSpeaking
+
+    private var _voiceCode = ""
+    val voiceCode: String get() = _voiceCode
+
+    private var _uri = ""
+    val uri: String get() = _uri
+
+    private var _reviewId = -1
+    val reviewId: Int get() = _reviewId
+
+    private var _sttStatus = MutableLiveData<Boolean>()
+    val sttStatus: LiveData<Boolean> get() = _sttStatus
+
+    private var _currentPosition = 0
+    val currentPosition: Int get() = _currentPosition
+
+    fun setCurrentPosition(position: Int) {
+        _currentPosition = position
+    }
+
+    fun setTimerTtsText(text: String) {
+        _timerTtsText.postValue(text)
+    }
+
+    fun setSttStatusValue(status: Boolean) {
+        _sttStatus.value = status
+    }
+
+    fun getSttStatusValue() = sttStatus.value!!
+
+    fun setRecipeId(recipeId: Int) {
+        this._recipeId = recipeId
+    }
+
+    fun setVoiceCode(voiceCode: String) {
+        _voiceCode = voiceCode
+    }
+
+    fun setUri(uri: String) {
+        _uri = uri
+    }
+
+    fun setReviewId(reviewId: Int) {
+        _reviewId = reviewId
+    }
+
+    private val _getAnswerLiveData = SingleLiveEvent<ViewState<VoiceDomainModel>>()
+    val getAnswerLiveData: LiveData<ViewState<VoiceDomainModel>> get() = _getAnswerLiveData
+
+    fun getAnswer(message: String) = viewModelScope.launch {
+        _getAnswerLiveData.postValue(ViewState.Loading())
+        when (val response = getAnswerUseCase(recipeId, message)) {
+            is ViewState.Success -> {
+                _getAnswerLiveData.postValue(response)
+            }
+            is ViewState.Error -> {
+                _getAnswerLiveData.postValue(response)
+            }
+            is ViewState.Loading -> {
+
+            }
+        }
+    }
+
+    private var _voiceName: String = "유리"
+    val voiceName: String get() = _voiceName
+
+    fun setVoiceName(voiceNameValue: String) {
+        _voiceName = voiceNameValue
+    }
+
+    private var _isKeywordInActivate: Boolean = false
+    val isKeywordInActivate: Boolean get() = _isKeywordInActivate
+
+    fun setKeywordExist(status: Boolean) {
+        _isKeywordInActivate = status
+    }
+}
+```
+---
 
 ### 1.3 코드 설명
 
@@ -325,4 +424,3 @@ class CookProgressFragment :
 - **서버에서 통신하는 동안에는 `SpeechRecognizer`을 실행시키지 않고, 서버 통신이 끝나거나 음성인식이 제대로 되지 않았을 때 다시 음성 인식을 자동으로 시작하게 구현하였습니다.**
 - **`onStop()` 과정에서는 음성인식이 되면 안되기 때문에 destroy하고 `onStart()`에서 다시 `SpeechRecognizer`을 생성하여 시작합니다.**
 - **서버에서 통신한 결과값을 `when문`을 통해 해당 결과값에 맞는 기능을 실행하도록 구현하였습니다.**
--
