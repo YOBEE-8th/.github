@@ -10,6 +10,6 @@
 ## 💻 Dev
 [프로젝트 개발 컨텐츠]()
 
-[안드로이드 개발 컨텐츠]()
+[안드로이드 개발 컨텐츠](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/android_contents.md)
 
 [백엔드 개발 컨텐츠]()
