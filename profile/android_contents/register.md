@@ -13,6 +13,7 @@
 ### 인증번호 시간 만료시
 <img src="https://user-images.githubusercontent.com/48742378/230296021-20cfe882-4154-40c1-b331-a87a52e27fbb.gif"  width="200" height="400"/>
 
+---
 
 ### 1.2 코드
 
@@ -340,6 +341,7 @@ class RegisterFragment : BaseFragment<FragmentRegisterBinding>(R.layout.fragment
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -533,6 +535,7 @@ class RegisterViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### 1.3 코드 설명
 
@@ -544,11 +547,15 @@ class RegisterViewModel @Inject constructor(
 - **모든 유효성 검사를 마친 뒤에 다음 버튼을 누르면 `Navigation safe args`을 사용하여 현재 저장되어 있는 가입 정보를 객체에 담아서 다음 화면에 전달합니다.**
 - **다음 화면에서 이메일, 비밀번호 입력 화면으로 넘어가도 해당 정보가 `Navigation Safe Args`을 통해 전달하므로 정보들이 입력되어 있습니다.**
 
+---
+
 ## 2. 프로필 정보 입력
 
 ### 2.1 결과물 (GIF)
 
-![KakaoTalk_20230406_131443043.gif](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20acf1b26b32554ea99b101a96601434fb/KakaoTalk_20230406_131443043.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230301901-b938bf2b-bbf9-49d4-a55b-dc2d495965ff.gif"  width="200" height="400"/>
+
+---
 
 ### 2.2 코드
 
@@ -730,6 +737,7 @@ class SignUpProfileFragment :
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -919,6 +927,7 @@ class RegisterViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### 2.3 코드 설명
 
