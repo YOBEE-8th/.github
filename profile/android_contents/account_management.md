@@ -1,10 +1,14 @@
 # 회원정보 관리
 
+---
+
 ## 1. 로그아웃
 
 ### 1.1 결과화면(GIF)
 
-![Untitled](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%206c759529bce448b3b022e266a641ffd6/Untitled.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230304672-006e1049-f746-480b-9de0-9ea0d8076b71.gif"  width="200" height="400"/>
+
+---
 
 ### 1.2 코드
 
@@ -55,6 +59,7 @@ private fun initLogoutViewModel() {
         }
     }
 ```
+---
 
 ### ViewModel
 
@@ -83,6 +88,7 @@ class MyPageViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### 1.3 코드 설명
 
@@ -90,11 +96,16 @@ class MyPageViewModel @Inject constructor(
 - **로그아웃이 완료되면 `SharedPreference`에 저장되어 있는 accessToken, 회원정보(프로필 이미지, 닉네임)를 삭제합니다.**
 - **SNS 로그인 계정인 경우(구글, 카카오) 해당 계정을 로그아웃 하도록 구현하였습니다.**
 
+---
+
 ## 2. 계정 탈퇴
+---
 
-### 1.1 결과화면 (GIF)
+### 2.1 결과화면 (GIF)
 
-![계정탈퇴.gif](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%206c759529bce448b3b022e266a641ffd6/%25EA%25B3%2584%25EC%25A0%2595%25ED%2583%2588%25ED%2587%25B4.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230304912-730a1d7b-e9a6-483a-a227-a93c239353d3.gif"  width="200" height="400"/>
+
+---
 
 ### 2.2 코드
 
@@ -146,6 +157,7 @@ Log.d(TAG, "initWithdrawalViewModel: 회원탈퇴 성공")
 }
 }
 ```
+---
 
 ### ViewModel
 
@@ -173,17 +185,23 @@ class MyPageViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### 2.3 코드 설명
 
 - **`REST API` 통신을 하여 해당 이메일을 받아와 연결되어 있는 계정(일반 로그인, 구글 로그인, 카카오 로그인)을 삭제합니다.**
 - **계정탈퇴가 완료되면 `SharedPreference`에 저장되어 있는 accessToken, 회원정보(프로필 이미지, 닉네임)를 삭제합니다.**
 
+---
+
 ## 3. 프로필 이미지 변경
+---
 
 ### 3.1 결과 화면 (GIF)
 
-![KakaoTalk_20230405_171453403.gif](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%206c759529bce448b3b022e266a641ffd6/KakaoTalk_20230405_171453403.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230305094-28916af3-5ef1-4421-8e7b-895c9493b435.gif"  width="200" height="400"/>
+
+---
 
 ### 3.2 코드
 
@@ -281,6 +299,7 @@ class MyPageProfileFragment :
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -343,6 +362,7 @@ class MyPageProfileViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### Util
 
@@ -390,6 +410,7 @@ object GalleryUtils {
     }
 }
 ```
+---
 
 ### 3.3 코드 설명
 
@@ -397,11 +418,17 @@ object GalleryUtils {
 - **`LiveData`인 profileImager가 `observer`를 통해 실시간으로 변화를 감지하였을 때, 해당 이미지 Uri를  `MultiPart`타입 파일로 만들어주고 `ViewModel`에 profileImageMultipartBodyLiveData에 저장합니다.**
 - **프로필 수정 버튼을 누르면 저장되어있는 `MultiPart`파일인 이미지를 서버와 통신하여 서버에 업로드하여서 저장된 경로를  response 값을 받아와 `SharedPreference`에 프로필 이미지 값에 갱신시켜줍니다.**
 
+---
+
 ## 4. 닉네임 변경
 
-### 41 결과 화면 (GIF)
+---
 
-![KakaoTalk_20230405_171451805.gif](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%206c759529bce448b3b022e266a641ffd6/KakaoTalk_20230405_171451805.gif)
+### 4.1 결과 화면 (GIF)
+
+<img src="https://user-images.githubusercontent.com/48742378/230305448-a23b4d70-0223-497b-841c-074682c796b5.gif"  width="200" height="400"/>
+
+---
 
 ### 4.2 코드
 
@@ -518,6 +545,7 @@ class MyPageProfileFragment :
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -604,6 +632,7 @@ class MyPageProfileViewModel @Inject constructor(
     fun setNicknameState(state: Boolean) = _nicknameState.setValue(state)
 }
 ```
+---
 
 ### 4.3 코드 설명
 
@@ -613,11 +642,17 @@ class MyPageProfileViewModel @Inject constructor(
 - **닉네임 변경이나 프로필 이미지 변경이 있을 시 변경 버튼이 활성화되도록 구현하였습니다.**
 - **이미지 변경을 하면 변경 버튼이 활성화 되지만 닉네임 텍스트가 변화하면 감지하여 버튼이 비활성화 되고 유효성 검사를 하고 나서 성공하면 변경 버튼이 활성화 되도록 구현하였습니다.**
 
+---
+
 ## 5. 비밀번호 변경
+
+---
 
 ### 5.1 결과물 (GIF)
 
-![Untitled](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%206c759529bce448b3b022e266a641ffd6/Untitled%201.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230305647-ad51b07d-0585-4449-8c61-c14fdfbfa8cd.gif"  width="200" height="400"/>
+
+---
 
 ### 5.2 코드
 
@@ -750,6 +785,8 @@ class ChangePasswordFragment :
 }
 ```
 
+---
+
 ### ViewModel
 
 ```kotlin
@@ -831,16 +868,24 @@ class ChangePasswordViewModel @Inject constructor(
 }
 ```
 
+---
+
 ### 5.3 코드 설명
 
 - `**DataBinding**`을 통해 `**ViewModel**`에서 비밀번호 입력 부분을 **`TextWatcher`**을 통해 정규식 패턴일치 여부를 확인하고 그에따른 결과를 **passwordState**에 담아 Fragment에서는 해당 값에 따라 UI가 갱신되도록 구현하였습니다.
 - 비밀번호 확인 체크를 하더라도 **비밀번호 부분을 변경하면 변경 버튼이 다시 비활성화**되고 비밀번호 정규식 패턴과 일치하고 비밀번호 확인이 비밀번호와 일치하면 다시 비밀번호 변경이 활성화되도록 구현하였습니다.
 
+---
+
 ## 6. 비밀번호 재설정
+
+---
 
 ### 6.1 결과물 (GIF)
 
-![Untitled](%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%206c759529bce448b3b022e266a641ffd6/Untitled%202.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230308148-c52538f1-25c1-4f1f-a274-5d1eddec2a69.gif"  width="200" height="400"/>
+
+---
 
 ### 6.2 코드
 
@@ -917,6 +962,7 @@ class ResetPasswordFragment :
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -976,6 +1022,8 @@ class ResetPasswordViewModel @Inject constructor(
 }
 ```
 
+---
+
 ### Util
 
 ```kotlin
@@ -1000,6 +1048,8 @@ object TextUtills {
     }
 }
 ```
+
+---
 
 ### 6.3 코드 설명
 
