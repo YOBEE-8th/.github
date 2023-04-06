@@ -4,7 +4,9 @@
 
 ### 1.1 결과물 (GIF)
 
-![Untitled](%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20b968ed383e754a949ca5213f7752e298/Untitled.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230296735-b0b3a14e-7fb8-4a39-8a16-a879803eff2a.gif"  width="200" height="400"/>
+
+--- 
 
 ### 1.2 코드
 
@@ -116,6 +118,7 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>(R.layout.fragment_login
     }
 }
 ```
+---
 
 ### ViewModel
 
@@ -152,21 +155,29 @@ class LoginViewModel @Inject constructor(
     }
 }
 ```
+---
 
 ### 1.3 코드 설명
 
 - **이메일과 비밀번호 입력 부분을 정규식 패턴과 일치하는지 검사하고 결과에 따른 UI를 갱신하도록 구현하였습니다.**
 - **서버와 통신하여 로그인에 성공하면 홈 화면으로 이동하고 서버에서 받은 accessToken 값을 `SharedPreference`에 저장합니다.**
 
+---
+
 ## 2. 자동 로그인
 
 ### 2.1 결과물 (GIF)
 
-### 자동 로그인 체크 X                                      자동 로그인 체크 O
+### 자동 로그인 체크 X                                     
 
-![KakaoTalk_20230406_093443489.gif](%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20b968ed383e754a949ca5213f7752e298/KakaoTalk_20230406_093443489.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230297743-d452318a-b179-4cec-bdfb-1b87924212f6.gif"  width="200" height="400"/>
 
-![KakaoTalk_20230406_093438656.gif](%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20b968ed383e754a949ca5213f7752e298/KakaoTalk_20230406_093438656.gif)
+---
+
+### 자동 로그인 체크 O
+<img src="https://user-images.githubusercontent.com/48742378/230298814-008de2c5-cf9c-4a8a-b731-1418558fad9b.gif"  width="200" height="400"/>
+
+---
 
 ### 2.2 코드
 
@@ -232,21 +243,29 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>(R.layout.fragment_login
     }
 }
 ```
+---
 
 ### 2.3 코드 설명
 
 - **사용자가 자동 로그인 체크박스를 체크하고 로그인을  하면 로그인 성공시에 서버에서 받은 accessToken을 `SharedPreference`에 저장해서 앱을 다시 실행하였을 때 스플래시 화면에서 토큰 유효성 검사를 해서 유효한 accessToken이면 홈 화면으로 이동합니다.**
 - **자동 로그인 체크박스를 해제하고 로그인하면 `SharedPreference`에 accessToken 값을 저장하지 않기 때문에 스플래시 화면에서 로그인 화면으로 이동합니다.**
 
+---
+
 ## 3. 구글 로그인 (소셜 로그인)
 
 ### 3.1 결과물 (GIF)
 
-### 회원가입이 안 한 상태                                     회원가입 한 상태
+### 회원가입이 안 한 상태                                     
 
-![KakaoTalk_20230406_100553116.gif](%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20b968ed383e754a949ca5213f7752e298/KakaoTalk_20230406_100553116.gif)
+<img src="https://user-images.githubusercontent.com/48742378/230300285-3a8d94b5-c46f-437c-aa8a-512f7e265130.gif"  width="200" height="400"/>
 
-![KakaoTalk_20230406_100554578.gif](%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20b968ed383e754a949ca5213f7752e298/KakaoTalk_20230406_100554578.gif)
+---
+
+### 회원가입 한 상태
+<img src="https://user-images.githubusercontent.com/48742378/230300742-62b4e721-8d4d-42af-a3b9-3cebac303495.gif"  width="200" height="400"/>
+
+---
 
 ### 3.2 코드
 
@@ -373,6 +392,8 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>(R.layout.fragment_login
     }
 }
 ```
+
+---
 
 ### 3.3 코드 설명
 
