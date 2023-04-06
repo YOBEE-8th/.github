@@ -1,11 +1,16 @@
 # 요리 과정
 
+### **목소리 선택**
 <image width=200 height=400 src="https://user-images.githubusercontent.com/77010707/230302630-f728a7cd-426c-48a0-b8ed-c0b561f16e75.gif">
-<image width=400 style="margin-bottom:200px" src="https://user-images.githubusercontent.com/77010707/230301982-b46ee974-6b86-45dc-a424-034d80fe1171.gif
+<br>
+
+### **TTS**
+<image width=400 src="https://user-images.githubusercontent.com/77010707/230301982-b46ee974-6b86-45dc-a424-034d80fe1171.gif
 ">
 
 - 두 종류의 목소리를 선택할 수 있습니다.
 - 요리과정에 대한 설명을 TTS로 읽어줍니다.
+- 음성 질문에 대한 답변을 TTS로 읽어줍니다.
 
 ### **Text-To-Speech(TTS)**
 
