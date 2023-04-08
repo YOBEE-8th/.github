@@ -10,8 +10,9 @@
 
 ### 📱 Android
 
-| Architecture | CleanArchitecture, MVVM, Single Activity Application                                                                                                         |
+| Title | Content                                                                                                         |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Architecture | CleanArchitecture, MVVM, Single Activity Application                                                                                                         |
 | DI           | Hilt                                                                                                                                                         |
 | Jetpack      | Navigation, ViewBinding, DataBinding, ViewModel, LiveData, Lifecycle                                                                                         |
 | Network      | Retrofit2, OkHttp, Gson                                                                                                                                      |
@@ -20,8 +21,9 @@
 
 ### 🌐 Back-End
 
+| Title | Content                                                                                                         |
+| ------------ | --------------------------------------------------------------- |
 | Design Pattern | MVC pattern                |
-| -------------- | -------------------------- |
 | DB             | Maria db 15.1, Redis 5.0.7 |
 | Dependency
 Injection | Gradle 7.6 |
@@ -32,8 +34,9 @@ Injection | Gradle 7.6 |
 
 ### 🤖 AI
 
+| Title | Content                                                                                                         |
+| ------------ | --------------------------------------------------------------- |
 | Model    | SpacyNLP, ko_pipeline                                                                   |
-| -------- | --------------------------------------------------------------------------------------- |
 | DB       | Maria db 15.1                                                                           |
 | Pipeline | SpacyNLP, ko_pipeline, SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, DIETClassifier |
 | Strategy | Git Flow                                                                                |
@@ -43,7 +46,8 @@ Injection | Gradle 7.6 |
 
 ### 👥 **Team Collaboration Tool**
 
-| Usage | Tool |
+| Title | Content                                                                                                         |
+| ------------ | ----------------------- |
 | --- | ------ |
 | Git | GitLab |
 | Issue Management | Jira |
