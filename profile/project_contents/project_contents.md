@@ -25,14 +25,11 @@
 | Design Pattern | MVC pattern                |
 | -------------- | -------------------------- |
 | DB             | Maria db 15.1, Redis 5.0.7 |
-
 | Dependency
 Injection | Gradle 7.6 |
 | Strategy | Git Flow |
-| Third Party
-Library | Kakao API |
-| Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1
-Logspout, PaperTrail |
+| Third Party Library | Kakao API |
+| Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
 | Tools | IntelliJ |
 
 ### 🤖 AI
@@ -42,20 +39,16 @@ Logspout, PaperTrail |
 | DB       | Maria db 15.1                                                                           |
 | Pipeline | SpacyNLP, ko_pipeline, SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, DIETClassifier |
 | Strategy | Git Flow                                                                                |
-
-| Third Party
-Library | Openai, RASA |
-| Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1
-Logspout, PaperTrail |
+| Third Party Library | Openai, RASA |
+| Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
 | Tools | VScode |
 
 ### 👥 **Team Collaboration Tool**
 
-| Git | GitLab |
+| Usage | Tool |
 | --- | ------ |
-
-| Issue
-Management | Jira |
+| Git | GitLab |
+| Issue Management | Jira |
 | Archive | Notion |
 | Communication | Mattermost, Kakao Talk |
 
@@ -79,11 +72,11 @@ Management | Jira |
 
 ## 3️⃣ Architecture
 
-<image style="width: 600px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/architecture.png">
+<image style="width: 850px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/architecture.png">
 
 ## 4️⃣ ERD
 
-<image style="width: 600px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/erd.png">
+<image style="width: 700px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/erd.png">
 
 ## 5️⃣ Role
 
