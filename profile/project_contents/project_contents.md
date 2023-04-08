@@ -25,8 +25,7 @@
 | ------------ | --------------------------------------------------------------- |
 | Design Pattern | MVC pattern                |
 | DB             | Maria db 15.1, Redis 5.0.7 |
-| Dependency
-Injection | Gradle 7.6 |
+| Dependency Injection | Gradle 7.6 |
 | Strategy | Git Flow |
 | Third Party Library | Kakao API |
 | Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
