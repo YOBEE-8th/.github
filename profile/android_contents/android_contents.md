@@ -8,13 +8,13 @@
 
 ### 📱 Android
 
-| Architecture | CleanArchitecture, MVVM, Single Activity Application |
-| --- | --- |
-| DI | Hilt |
-| Jetpack | Navigation, ViewBinding, DataBinding, ViewModel, LiveData, Lifecycle |
-| Network | Retrofit2, OkHttp, Gson |
-| Library | Firebase(FCM), Google(Auth), Kakao(Auth), MLKit, Glide, TedPermission, MPAndroidChart, SwipeRefreshLayout, Lottie, PageIndicatorView, SimpleRatingBar, Typer |
-| Engine | Google STT Engine, Google TTS Engine |
+| Architecture | CleanArchitecture, MVVM, Single Activity Application                                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| DI           | Hilt                                                                                                                                                         |
+| Jetpack      | Navigation, ViewBinding, DataBinding, ViewModel, LiveData, Lifecycle                                                                                         |
+| Network      | Retrofit2, OkHttp, Gson                                                                                                                                      |
+| Library      | Firebase(FCM), Google(Auth), Kakao(Auth), MLKit, Glide, TedPermission, MPAndroidChart, SwipeRefreshLayout, Lottie, PageIndicatorView, SimpleRatingBar, Typer |
+| Engine       | Google STT Engine, Google TTS Engine                                                                                                                         |
 
 ## 2️⃣ Package Structure
 
@@ -66,17 +66,24 @@
 
 ## 3️⃣ Screenshot
 
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_1.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_2.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_3.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_4.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_5.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_6.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_7.png">
+
+<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_8.png">
+
 ## 4️⃣ Role
 
-| 이민하 | 이수용 | 조수연 |
-| --- | --- | --- |
-| 홈화면 |  [레시피 목록](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/recipe_list.md) | [회원가입](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/register.md) |
-| 레시피 소개 | [요리 과정(TTS)](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/cook_progress.md) | [로그인](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/login.md)
-| 완성 사진 분석 | [Clean Architecture](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/clean_architecture) | [회원 정보 관리](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/account_management.md) |
-| 리뷰 | [검색](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/search.md) | [음성 제어 & 질문](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/stt.md) |
-| FCM | [메뉴 월드컵](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/menu_worldcup.md) | [스플래쉬](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/splash.md) |
-| | [즐겨찾기](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/favorite.md)
-
-[민하](https://www.notion.so/67efde060900493f9f19512f70448390)
-
-[수연](https://www.notion.so/84daefd7f26f4b5abf33bd0aa06ce3f7)
+| 이민하                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 이수용                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 조수연                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [홈화면](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/home.md) <br> [레시피 소개](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/recipe_detail.md) <br> [앱 가이드](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/guide.md) <br> [완성 사진 분석](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/analyze_image.md) <br> [리뷰](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/review.md) <br> [FCM](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/fcm.md) | [레시피 목록](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/recipe_list.md) <br> [요리 과정(TTS)](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/cook_progress.md) <br> [Clean Architecture](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/clean_architecture) <br> [검색](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/search.md) <br> [메뉴 월드컵](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/menu_worldcup.md) <br> [즐겨찾기](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/favorite.md) | [회원가입](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/register.md) <br> [로그인](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/login.md) <br> [회원 정보 관리](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/account_management.md) <br> [음성 제어 & 질문](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/stt.md) <br> [스플래쉬](https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/splash.md) |
