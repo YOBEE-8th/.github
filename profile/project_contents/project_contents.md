@@ -47,7 +47,6 @@ Injection | Gradle 7.6 |
 ### 👥 **Team Collaboration Tool**
 
 | Title | Content                                                                                                         |
-| ------------ | ----------------------- |
 | --- | ------ |
 | Git | GitLab |
 | Issue Management | Jira |
