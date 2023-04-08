@@ -4,25 +4,27 @@
 
 ### 🌐 Back-End
 
-| Design Pattern       | MVC pattern                                                                   |
-| -------------------- | ----------------------------------------------------------------------------- |
-| DB                   | Maria db 15.1, Redis 5.0.7                                                    |
-| Dependency Injection | Gradle 7.6                                                                    |
-| Strategy             | Git Flow                                                                      |
-| Third Party Library  | Kakao API                                                                     |
-| Infra                | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
-| Tools                | IntelliJ                                                                      |
+| Title | Content                                                                                                         |
+| ------------ | --------------------------------------------------------------- |
+| Design Pattern | MVC pattern                |
+| DB             | Maria db 15.1, Redis 5.0.7 |
+| Dependency Injection | Gradle 7.6 |
+| Strategy | Git Flow |
+| Third Party Library | Kakao API |
+| Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
+| Tools | IntelliJ |
 
 ### 🤖 AI
 
-| Model               | SpacyNLP, ko_pipeline                                                         |
-| ------------------- | ----------------------------------------------------------------------------- |
-| DB                  | Maria db 15.1                                                                 |
-| Pipeline            | SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, DIETClassifier              |
-| Strategy            | Git Flow                                                                      |
-| Third Party Library | Openai, RASA                                                                  |
-| Infra               | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
-| Tools               | VScode                                                                        |
+| Title | Content                                                                                                         |
+| ------------ | --------------------------------------------------------------- |
+| Model    | SpacyNLP, ko_pipeline                                                                   |
+| DB       | Maria db 15.1                                                                           |
+| Pipeline | SpacyNLP, ko_pipeline, SpacyTokenizer, SpacyFeaturizer, RegexFeaturizer, DIETClassifier |
+| Strategy | Git Flow                                                                                |
+| Third Party Library | Openai, RASA |
+| Infra | AWS Ubuntu 20.04LTS, Jenkins 2.375.3, Docker 23.0.1 <br> Logspout, PaperTrail |
+| Tools | VScode |
 
 ## 2️⃣ Package Structure
 
