@@ -66,22 +66,22 @@
 
 ## 3️⃣ Screenshot
 
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_1.png">
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_1.png">
 
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_2.png">
-
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_3.png">
-
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_4.png">
-
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_5.png">
-
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_6.png">
-
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_7.png">
-
-<image src="https://github.com/YOBEE-8th/.github/blob/main/profile/img/screenshot_8.png">
-
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_2.png">
+ 
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_3.png">
+ 
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_4.png">
+ 
+<image style="height: 180px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_5.png">
+ 
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_6.png">
+ 
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_7.png">
+ 
+<image style="height: 350px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/android_contents/img/screenshot_8.png">
+ 
 ## 4️⃣ Role
 
 | 이민하                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 이수용                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 조수연                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
