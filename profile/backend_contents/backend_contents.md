@@ -87,11 +87,11 @@
 
 ## 3️⃣ Architecture
 
-<image style="width: 600px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/architecture.png">
+<image style="width: 850px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/architecture.png">
 
 ## 4️⃣ ERD
 
-<image style="width: 600px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/erd.png">
+<image style="width: 700px" src="https://github.com/YOBEE-8th/.github/blob/main/profile/project_contents/img/erd.png">
 
 ## 5️⃣ Role
 
